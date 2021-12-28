@@ -1,0 +1,28 @@
+ p::first-line{ 
+    color: red;
+}
+
+
+h1::first-letter{
+    color: red;
+    font-size: 5rem;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "- ";
+    color: rgb(168, 5, 32);
+}
+
+li::after{
+    content: "- ";
+    color: rgb(168, 5, 32);
+}
+
+p::selection{
+    background-color: rebeccapurple;
+    color:seagreen;
+}

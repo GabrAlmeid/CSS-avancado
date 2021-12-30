@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* justify-content: center;  */
+    /* align-items: center; */
+    /* align-content: stretch; */
+
+    background-color: black;
+    height: 290px;
+    color: white;
+}
+
+.r1{
+    align-self: center;
+    background-color: red;
+}
+.r2{
+    order: -1;
+    background-color: blue;
+}
+.r3{
+    /* flex-shrink: 0; */
+    /* flex-grow: 2; */
+    background-color: green;
+}
+
+.rect{
+width: 150px;
+height: 100px;
+}
